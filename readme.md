@@ -231,7 +231,7 @@ The server-side RPC library does two things:
 1. Checks if the special `__validMethods` method is called and, if so, returns an array of methods that are valid for this API path.
 2. For all other calls, checks if the method exists and, if it does, calls it, passing it any arguments it recieved, and then returns the result as a JSON string.
 
-Again, this is just a simple example/tutorial to illustrate the concept of remote procedure calls using WebSockets. It does not perform any input sanitisation, etc., beyond a cursory check for valid methods. So please do not use this in production but I hope it has given you a better idea of simple the core concept behind remote procedure calls (RPC) is.
+Again, this is just a simple example/tutorial to illustrate the concept of remote procedure calls using WebSockets. It does not perform any input sanitisation, etc., beyond a cursory check for valid methods. So please do not use this in production but I hope it has given you a better idea of how simple the core concept behind remote procedure calls (RPC) is.
 
 ## Like this? Fund us!
 
